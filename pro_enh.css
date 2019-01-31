@@ -1,0 +1,137 @@
+
+ /* Google font*/
+ 
+ @import url('https://fonts.googleapis.com/css?family=Six+Caps');
+
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+ body {
+  display: block;
+  font-family: 'Montserrat', 'Arial', 'sans-serif',  'serif';
+  color: rgb(59, 58, 58);
+  
+  /* background-color: lightgrey;  */
+
+  background-image: url("canvas.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  /* background-size: cover;  */
+
+  line-height: 1.6;
+  width: 80%;
+  margin-left: 5rem;
+ }
+
+ header {
+  background-color: grey;
+  color: white;
+  font-weight: 100;
+  font-size: 24px;
+  font-family: 'Six Caps';
+  text-align: center;
+ }
+
+ .notification {
+  position: static;
+  float: right;
+  border-radius: 20% 0 20% 0;
+  background: greenyellow;
+  padding:.5rem 1rem;
+  border:3px solid #DDDDCC;
+  width: 200px;
+  font-weight:bold;
+  color: #333300;
+ }
+
+ img {
+  float: left;
+  margin-right: 50px;
+}
+
+ footer {
+  background-color: grey;
+  color: white;
+ }
+  
+ table, th, td {
+  border: 1px solid black;
+ }
+
+ tr:nth-child(even) {
+   background-color: lightgrey;
+  }
+
+ span {
+  text-transform: capitalize;
+ }
+
+ .conclusion {
+
+   background: -webkit-linear-gradient(90deg, rgb(139, 142, 145), rgb(216, 221, 226));
+  background: linear-gradient(90deg, rgb(139, 142, 145), rgb(216, 221, 226));
+
+   margin-left: 20rem;
+   width: 50%;
+   font-size: 160%;
+   border-left-style: groove; 
+   border-left-color: blue;
+   text-indent: 30px; 
+   padding: 80px 0 80px 30px;
+ }
+
+ #frm1, #frm2, #frm3, #frm4 {
+  border-left-style: groove;
+  border-left-color: aqua;
+  background-repeat: no-repeat;
+  background-position: right;
+  font-weight: 700;
+ }
+
+ #frm2, #frm4 {
+  background-image: url("bien.png");
+  background-size: 25px;
+ }
+
+ #frm1, #frm3 {
+  background-image: url("mal.png");
+  background-size: 25px;
+ }
+
+ #chn1, #chn2, #chn3, #chn4 {
+  background-image: url("chat.png");
+  background-size: 25px;
+ }
+
+ #chn1, #chn2, #chn3, #chn4 {
+  border-left-style: groove;
+  border-left-color: greenyellow;
+  background-repeat: no-repeat;
+  background-position: right;
+ }
+
+ q {
+  display: inline;
+}
+ q:before {
+  content: open-quote;
+}
+ q:after {
+  content: close-quote;
+}
+
+ /* .tooltip {
+  color: white;
+  font-size: 16px;
+  } */
+ 
+ .tooltip:visited {
+  color: orange;
+  font-size: 16px;
+  }
+
+ .tooltip:hover {
+  opacity: 2;
+  color: yellow;
+  font-size: 16px;
+  }
+    
